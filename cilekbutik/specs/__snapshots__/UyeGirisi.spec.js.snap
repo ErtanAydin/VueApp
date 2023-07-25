@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UyeGirisi renders properly 1`] = `
+<div class="UyeGirisiDiv">
+  <h3 class="UyeGirisiBaslık">
+    Üye Girişi
+  </h3>
+  <form>
+    <p class="UyeGirisiEposta"> E-Posta Adresiniz</p> <input type="text" class="UyeGirisiInput">
+    <p class="UyeGirisiSifre"> Şifre</p> <input type="password" class="UyeGirisiInput">
+    <div class="SagText"><a href="https://www.cilekbutik.net/uye-giris?sayfa=sifre" class="UyeGirisiLink">Şifremi Hatırlat</a></div> <button type="submit" class="GirisYapButon"> Giriş Yap </button>
+  </form>
+</div>
+`;

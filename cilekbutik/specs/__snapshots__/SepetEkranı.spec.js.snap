@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SepetEkranı gerçek Vuex Store kullanarak SepetEkranı render edildi 1`] = `
+<section class="SepetEkranıSection">
+  <div class="SepetEkranı">
+    <p class="SepetListesiYazı">Sepet Listesi</p>
+    <div class="SepetEkranıBirim">
+      <p class="SepetEkranıUrun">Ürün</p>
+      <p class="SepetEkranıFiyat">Fiyat</p>
+      <p class="SepetEkranıAdet">Adet</p>
+      <p class="SepetEkranıTutar">Tutar</p>
+    </div>
+    <div class="SepetUrunler">
+      <div sepetfiyatkonum=""><b class="UrunAdetFiyat"> 55,00 TL </b> <button class="AdetAzaltButonu">-</button> <input class="AdetInput"> <button class="AdetArttırButonu">+</button> <b class="Tutar"> 55,00 TL </b></div> <a><img src="https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fa57c217b440-1353.jpg" alt="" class="UrunImage"></a>
+      <div class="konum"><a class="LINK"><b alt="" class="UrunIsim">
+            Lakers Sweat
+          </b></a> <b class="UrunBeden">
+          BEDEN:
+          <span> M </span></b> <b class="UrunRenk">
+          Renk:
+          <span> TURUNCU </span></b> <button class="UrunSilButton">Sil</button></div>
+    </div>
+    <div class="AlışverişeDevamEtDiv"><a><button class="AlışverişeDevamEtButon">
+          &lt; Alışverişe Devam Et
+        </button></a></div>
+  </div>
+  <div class="ŞiparişÖzeti">
+    <h3 class="ŞiparişÖzetiYazı">Sipariş Özeti</h3> <b class="ŞiparişÖzetiAra"> &nbsp;Ürünler Toplamı <b class="ToplamFiyat"> 55,00 TL</b></b>
+    <div class="ŞiparişÖzetiGenel"><b> &nbsp;
+        Genel Toplam
+        <b class="GenelToplamFiyat"> 55,00 TL</b> <br> &nbsp;(KDV Dahil)
+      </b></div> <a><button class="AlışverişiTamamlaButonu"> Alışverişi Tamamla &gt; </button></a>
+  </div>
+</section>
+`;

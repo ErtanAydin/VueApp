@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationBar gerçek Vuex Store kullanarak NavigationBar render edildi 1`] = `
+<div>
+  <ul class="navbar">
+    <div>
+      <li class="Navbarli"><a class="active"><i class="fa fa-bars mr-2 pl-2 pr-2" style="margin-right: 8px;"></i>Yeni Ürünler</a></li>
+      <!---->
+      <!---->
+      <!---->
+      <!---->
+      <!---->
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </ul>
+</div>
+`;

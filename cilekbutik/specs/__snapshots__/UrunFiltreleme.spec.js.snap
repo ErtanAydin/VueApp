@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UrunFiltreleme renders properly 1`] = `
+<section class="UrunFiltrelemeSection">
+  <div class="AltKategorilerDiv">
+    <h3 class="AltKategorilerBaşlık">Alt Kategoriler</h3> <a title="Sweatshirt" class="AltKategoriler">Sweatshirt</a><a title="Sweatshirt" class="AltKategoriler">Gömlek/Bluz</a><a title="Sweatshirt" class="AltKategoriler">Crop</a> <span><br></span>
+  </div>
+  <div class="Markalar">
+    <h3 class="AltKategorilerBaşlık">Markalar</h3> <input type="checkbox" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> Çilekbutik</a>
+  </div>
+  <div class="FiyatAralıkları">
+    <h3 class="AltKategorilerBaşlık">Fiyat Aralıkları</h3>
+    <div class="FiyatAralığı">
+      <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 20 TL ve altı</a></div>
+      <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 20 TL - 39 TL</a></div>
+      <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 39 TL - 59 TL</a></div>
+      <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 59 TL - 79 TL</a></div>
+      <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 79 TL - 99 TL</a></div>
+      <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 99 TL - 119 TL</a></div>
+      <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 119 TL - 139 TL</a></div>
+      <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 139 TL - 159 TL</a></div>
+      <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 159 TL - 179 TL</a></div>
+      <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 179 TL ve üzeri</a></div>
+    </div>
+  </div>
+  <div class="Listeleme">
+    <h3 class="AltKategorilerBaşlık">Listeleme</h3> <input type="checkbox" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> Sadece stoktakileri göster</a>
+  </div> <button class="SeçimTemizleButon"> Seçimleri Temizle</button>
+</section>
+`;

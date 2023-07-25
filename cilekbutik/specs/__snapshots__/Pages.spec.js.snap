@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Adres renders properly 1`] = `
+<div class="Adres">
+  <div class="adres-girisi-butun">
+    <div class="adres-girisi-content">
+      <div class="adres-girisi">
+        <div class="adres-header">
+          <div class="adres-header-icerik"><i class="fa fa-map-marker adres-icon" style="font-size: 20px;"></i>
+            Adres Girişi
+          </div>
+        </div>
+        <div class="adres-body">
+          <div class="satir">
+            <div class="sutun"><label for="siparisInputName" class="adres-text">
+                Ad
+                <span class="zorunlu-text">*</span></label> <input type="text" class="input-form"></div>
+            <div class="sutun"><label for="siparisInputName" class="adres-text">
+                Soyad
+                <span class="zorunlu-text">*</span></label> <input type="text" class="input-form"></div>
+          </div>
+          <div class="satir">
+            <div class="sutun"><label for="siparisInputName" class="adres-text">
+                E-posta Adresi
+                <span class="zorunlu-text">*</span></label> <input type="text" class="input-form"></div>
+            <div class="sutun"><label for="siparisInputName" class="adres-text">
+                Cep Telefonu
+                <span class="zorunlu-text">*</span></label>
+              <div><img src="https://cdn.countryflags.com/thumbs/turkey/flag-400.png" width="30" height="20" class="turkbayragi"> <input type="text" class="input-form-cep-tel"></div>
+            </div>
+          </div>
+          <div class="satir">
+            <div class="sutun"><label for="siparisInputName" class="adres-text">
+                İl
+                <span class="zorunlu-text">*</span></label> <select name="sehir" id="siparisInputSehir" class="input-form">
+                <option selected="selected" value="">Seçin</option>
+                <option value="1">Adana</option>
+                <option value="2">Adıyaman</option>
+                <option value="3">Afyon</option>
+                <option value="4">Ağrı</option>
+                <option value="68">Aksaray</option>
+                <option value="5">Amasya</option>
+                <option value="6">Ankara</option>
+                <option value="7">Antalya</option>
+                <option value="75">Ardahan</option>
+                <option value="8">Artvin</option>
+                <option value="9">Aydın</option>
+                <option value="10">Balıkesir</option>
+                <option value="74">Bartın</option>
+                <option value="72">Batman</option>
+                <option value="69">Bayburt</option>
+                <option value="11">Bilecik</option>
+                <option value="12">Bingöl</option>
+                <option value="13">Bitlis</option>
+                <option value="14">Bolu</option>
+                <option value="15">Burdur</option>
+                <option value="16">Bursa</option>
+                <option value="17">Çanakkale</option>
+                <option value="18">Çankırı</option>
+                <option value="19">Çorum</option>
+                <option value="20">Denizli</option>
+                <option value="21">Diyarbakır</option>
+                <option value="81">Düzce</option>
+                <option value="22">Edirne</option>
+                <option value="23">Elazığ</option>
+                <option value="24">Erzincan</option>
+                <option value="25">Erzurum</option>
+                <option value="26">Eskişehir</option>
+                <option value="27">Gaziantep</option>
+                <option value="28">Giresun</option>
+                <option value="29">Gümüşhane</option>
+                <option value="30">Hakkari</option>
+                <option value="31">Hatay</option>
+                <option value="76">Iğdır</option>
+                <option value="32">Isparta</option>
+                <option value="34">İstanbul</option>
+                <option value="35">İzmir</option>
+                <option value="46">Kahramanmaraş</option>
+                <option value="78">Karabük</option>
+                <option value="70">Karaman</option>
+                <option value="36">Kars</option>
+                <option value="37">Kastamonu</option>
+                <option value="38">Kayseri</option>
+                <option value="71">Kırıkkale</option>
+                <option value="39">Kırklareli</option>
+                <option value="40">Kırşehir</option>
+                <option value="79">Kilis</option>
+                <option value="41">Kocaeli</option>
+                <option value="42">Konya</option>
+                <option value="43">Kütahya</option>
+                <option value="44">Malatya</option>
+                <option value="45">Manisa</option>
+                <option value="47">Mardin</option>
+                <option value="33">Mersin</option>
+                <option value="48">Muğla</option>
+                <option value="49">Muş</option>
+                <option value="50">Nevşehir</option>
+                <option value="51">Niğde</option>
+                <option value="52">Ordu</option>
+                <option value="80">Osmaniye</option>
+                <option value="53">Rize</option>
+                <option value="54">Sakarya</option>
+                <option value="55">Samsun</option>
+                <option value="56">Siirt</option>
+                <option value="57">Sinop</option>
+                <option value="58">Sivas</option>
+                <option value="63">Şanlıurfa</option>
+                <option value="73">Şırnak</option>
+                <option value="59">Tekirdağ</option>
+                <option value="60">Tokat</option>
+                <option value="61">Trabzon</option>
+                <option value="62">Tunceli</option>
+                <option value="64">Uşak</option>
+                <option value="65">Van</option>
+                <option value="77">Yalova</option>
+                <option value="66">Yozgat</option>
+                <option value="67">Zonguldak</option>
+              </select></div>
+            <div class="sutun"><label for="siparisInputName" class="adres-text">
+                İlçe
+                <span class="zorunlu-text">*</span></label> <select name="ilce" id="siparisInputIlce" class="input-form">
+                <option value="">Seçin</option>
+              </select></div>
+          </div>
+          <div class="satir">
+            <div class="sutun-adres"><label for="siparisInputName" class="adres-text">
+                Adres
+                <span class="zorunlu-text">*</span></label> <textarea name="Adres" id="siparisInputAdres" class="input-form"></textarea></div>
+          </div>
+          <div class="satir">
+            <div class="fatura-satiri"><input type="checkbox" name="fatura" id="siparisInputFatura"> <label for="siparisInputFatura" class="fatura">Fatura bilgilerimi farklı girmek istiyorum.</label></div>
+          </div>
+          <!---->
+        </div>
+      </div>
+      <div class="siparis-odeme-info">
+        <div class="siparis-ozeti">
+          <div class="siparis-ozeti-header">
+            <div class="siparis-ozeti-text">
+              Sipariş Özeti
+            </div>
+          </div>
+          <div class="siparis-detay-bolumu"><span class="urunleriGosterText"><div class="siparis-sepetteki-urunler-text"><i class="fa fa-caret-down"></i>
+                            Sepetteki Ürünler
+                        </div></span>
+            <!---->
+            <div class="sepet-satir">
+              <div class="sepet-sutun-sol">
+                Ürünler Toplamı
+              </div>
+              <div class="sepet-sutun-sag"><label id="sagaYapistir">60,00 TL</label></div>
+            </div>
+            <div class="sepet-satir">
+              <div class="sepet-sutun-sol">
+                Kargo
+              </div>
+              <div class="sepet-sutun-sag"><label id="sagaYapistir">12,00 TL</label></div>
+            </div>
+            <div class="sepet-satir-final">
+              <div class="sepet-sutun-sol">
+                Genel Toplam <br> (KDV Dahil)
+              </div>
+              <div class="sepet-sutun-sag" style="vertical-align: center;"><label id="sagaYapistir" style="font-size: 20px; font-weight: bold; color: rgb(49, 171, 69);">72,00 TL</label></div>
+            </div>
+          </div>
+        </div> <button class="button-odeme-islemleri"> ÖDEME İŞLEMLERİ <i class="fa fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Kategoriler renders properly 1`] = `
+<div>
+  <div class="UrunKategori"><a>Ana Sayfa</a> &gt; <a>Dış Giyim</a> &gt; <a>Ceket</a></div>
+  <div class="container">
+    <section class="UrunFiltrelemeSection">
+      <div class="AltKategorilerDiv">
+        <h3 class="AltKategorilerBaşlık">Alt Kategoriler</h3> <a title="Sweatshirt" class="AltKategoriler">Sweatshirt</a><a title="Sweatshirt" class="AltKategoriler">Gömlek/Bluz</a><a title="Sweatshirt" class="AltKategoriler">Crop</a> <span><br></span>
+      </div>
+      <div class="Markalar">
+        <h3 class="AltKategorilerBaşlık">Markalar</h3> <input type="checkbox" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> Çilekbutik</a>
+      </div>
+      <div class="FiyatAralıkları">
+        <h3 class="AltKategorilerBaşlık">Fiyat Aralıkları</h3>
+        <div class="FiyatAralığı">
+          <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 20 TL ve altı</a></div>
+          <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 20 TL - 39 TL</a></div>
+          <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 39 TL - 59 TL</a></div>
+          <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 59 TL - 79 TL</a></div>
+          <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 79 TL - 99 TL</a></div>
+          <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 99 TL - 119 TL</a></div>
+          <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 119 TL - 139 TL</a></div>
+          <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 139 TL - 159 TL</a></div>
+          <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 159 TL - 179 TL</a></div>
+          <div><input type="radio" name="fiyat" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> 179 TL ve üzeri</a></div>
+        </div>
+      </div>
+      <div class="Listeleme">
+        <h3 class="AltKategorilerBaşlık">Listeleme</h3> <input type="checkbox" class="UrunFiltrelemeCheckBox"> <span class="SpanImage"></span> <a href="#" class="CheckboxIsim"> Sadece stoktakileri göster</a>
+      </div> <button class="SeçimTemizleButon"> Seçimleri Temizle</button>
+    </section>
+    <div class="Urunler">
+      <h3 class="başlık">Üst Giyim</h3>
+      <div>
+        <div class="UrunAlanı"><a><img title="Lakers Sweat" src="https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fa57c217b440-1353.jpg" alt="" class="UrunImage"></a> <a class="LINK">
+            <p title="Lakers Sweat" class="UrunIsim"> Lakers Sweat</p>
+          </a> <a class="LINK"><b title="Lakers Sweat" class="UrunFiyat"><span>55,00 TL </span></b></a> <button class="SepeteEkleButton"> Sepete Ekle </button></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Sepet renders properly 1`] = `
+<div class="Sepet">
+  <section class="SepetEkranıSection">
+    <div class="SepetEkranı">
+      <p class="SepetListesiYazı">Sepet Listesi</p>
+      <div class="SepetEkranıBirim">
+        <p class="SepetEkranıUrun">Ürün</p>
+        <p class="SepetEkranıFiyat">Fiyat</p>
+        <p class="SepetEkranıAdet">Adet</p>
+        <p class="SepetEkranıTutar">Tutar</p>
+      </div>
+      <div class="SepetUrunler">
+        <div sepetfiyatkonum=""><b class="UrunAdetFiyat"> 55,00 TL </b> <button class="AdetAzaltButonu">-</button> <input class="AdetInput"> <button class="AdetArttırButonu">+</button> <b class="Tutar"> 55,00 TL </b></div> <a><img src="https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fa57c217b440-1353.jpg" alt="" class="UrunImage"></a>
+        <div class="konum"><a class="LINK"><b alt="" class="UrunIsim">
+              Lakers Sweat
+            </b></a> <b class="UrunBeden">
+            BEDEN:
+            <span> M </span></b> <b class="UrunRenk">
+            Renk:
+            <span> TURUNCU </span></b> <button class="UrunSilButton">Sil</button></div>
+      </div>
+      <div class="AlışverişeDevamEtDiv"><a><button class="AlışverişeDevamEtButon">
+            &lt; Alışverişe Devam Et
+          </button></a></div>
+    </div>
+    <div class="ŞiparişÖzeti">
+      <h3 class="ŞiparişÖzetiYazı">Sipariş Özeti</h3> <b class="ŞiparişÖzetiAra"> &nbsp;Ürünler Toplamı <b class="ToplamFiyat"> 55,00 TL</b></b>
+      <div class="ŞiparişÖzetiGenel"><b> &nbsp;
+          Genel Toplam
+          <b class="GenelToplamFiyat"> 55,00 TL</b> <br> &nbsp;(KDV Dahil)
+        </b></div> <a><button class="AlışverişiTamamlaButonu"> Alışverişi Tamamla &gt; </button></a>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Urun renders properly 1`] = `
+<div>
+  <div class="UrunDetayBody">
+    <div class="UrunKategori"><a>Ana Sayfa</a> &gt; <a>Dış Giyim</a> &gt; <a>Ceket</a></div>
+    <div class="UrunEkranıDiv">
+      <div class="UrunEkranı">
+        <div class="UrunEkranıImage"><a href="#"><img src="https://www.cilekbutik.net/cdn/2/700/700/images/urunler/5fa6a282db005-1368.jpg" alt="" class="UrunImage"> <img src="https://www.cilekbutik.net/cdn/2/100/100/images/urunler/5fa6a282db005-1368.jpg" alt="" class="UrunKucukImage"></a></div>
+        <div class="UrunEkranıBilgi">
+          <h3 class="UrunIsim"> CEP KAPAKLI KOT CEKET </h3>
+          <p class="UrunBilgi"> Ürün Kodu:</p>
+          <p class="UrunBilgi"> Barkod: 6242005630101</p>
+          <p class="UrunBilgi"> Kategori: <a class="KategoriLink">Ceket</a></p>
+          <p class="UrunBilgi"> Fiyat</p> <b class="UrunFiyat">90,00 TL</b>
+          <div class="BedenlerDiv">
+            <p class="UrunBeden"> BEDEN:</p>
+            <div class="BedenKonum"><button class="Bedenler"><b>S</b></button><button class="Bedenler"><b>M</b></button><button class="Bedenler"><b>L</b></button></div>
+          </div>
+          <div class="Görünüm"><button class="AdetAzaltButonu">-</button> <input class="AdetInput"> <button class="AdetArttırButonu">+</button> <button class="SepeteEkleButon"> Sepete Ekle</button><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDQ1Ni45MzgwOSA0NTYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTQ0OS45NDE0MDYgODIuNDY4NzVoLTMzNy41NzAzMTJsLTcuMTUyMzQ0LTQ0LjkyOTY4OGMtMy40MjE4NzUtMjEuNDc2NTYyLTIxLjE0ODQzOC0zNy4wNzAzMTItNDIuMTYwMTU2LTM3LjA3MDMxMmgtNTYuMDU4NTk0Yy0zLjg2NzE4OCAwLTcgMy4xMzI4MTItNyA3czMuMTMyODEyIDcgNyA3aDU2LjA1ODU5NGMxNC4wODU5MzcgMCAyNiAxMC44MDg1OTQgMjguMzMyMDMxIDI1LjQ0OTIxOWw0Ni45Njg3NSAyOTUuMTI1YzEuMjM0Mzc1IDkuMzI4MTI1IDkuMTQwNjI1IDE2LjMyODEyNSAxOC41NTA3ODEgMTYuNDI1NzgxaDEyLjkxMDE1NmMzLjM1NTQ2OSAxNyAxOC4yNDYwOTQgMzAuNjE3MTg4IDM2LjA2NjQwNyAzMC42MTcxODggMTcuODE2NDA2IDAgMzIuNzEwOTM3LTEzLjYxNzE4OCAzNi4wNjI1LTMwLjYxNzE4OGg5Ny41MjczNDNjMy4zNTE1NjMgMTcgMTguMjQ2MDk0IDMwLjYyODkwNiAzNi4wNjI1IDMwLjYyODkwNiAyMC4yNzczNDQgMCAzNi43NzM0MzgtMTcuMDcwMzEyIDM2Ljc3MzQzOC0zOC4wNTQ2ODdzLTE2LjUtMzguMDYyNS0zNi43NzM0MzgtMzguMDYyNWMtMTguMTEzMjgxIDAtMzMuMTk5MjE4IDEzLjQ4ODI4MS0zNi4yMTQ4NDMgMzEuNDg4MjgxaC05Ny4yMjI2NTdjLTMuMDE1NjI0LTE4LTE4LjEwMTU2Mi0zMS41LTM2LjIxNDg0My0zMS41LTE4LjExNzE4OCAwLTMzLjIwMzEyNSAxMy41LTM2LjIxNDg0NCAzMS41aC0xMi41NzAzMTNjLTIuNDg4MjgxLS4wMjczNDQtNC41NzQyMTgtMS44ODY3MTktNC44ODY3MTgtNC4zNTE1NjItLjAwNzgxMy0uMDQyOTY5LS4wMTU2MjUuMDU4NTkzLS4wMTk1MzIuMDE1NjI0bC04LjcyMjY1Ni01NC42NjQwNjJoMjM5Ljc0MjE4OGMxNy45MDYyNS4wMDM5MDYgMzMuNDIxODc1LTEyLjQwMjM0NCAzNy4zNTU0NjgtMjkuODcxMDk0bDM2LjE4NzUtMTU3LjIyMjY1NmMuNDgwNDY5LTIuMTI4OTA2LS4wMTE3MTgtNC4zNTkzNzUtMS4zNDM3NS02LjA4OTg0NC0xLjMwODU5My0xLjcxMDkzNy0zLjMxNjQwNi0yLjc0NjA5NC01LjQ3MjY1Ni0yLjgxNjQwNnptLTE3MS4zMjQyMTggMTcyLjgwMDc4MWMtNDAuOTA2MjUgMC03NC4wNjY0MDctMzMuMTYwMTU2LTc0LjA2NjQwNy03NC4wNjY0MDYtLjAwMzkwNi00MC45MDYyNSAzMy4xNjAxNTctNzQuMDY2NDA2IDc0LjA2MjUtNzQuMDY2NDA2IDQwLjkwNjI1IDAgNzQuMDY2NDA3IDMzLjE2MDE1NiA3NC4wNjY0MDcgNzQuMDY2NDA2LS4wNDY4NzYgNDAuODg2NzE5LTMzLjE3OTY4OCA3NC4wMTk1MzEtNzQuMDYyNSA3NC4wNjY0MDZ6bTAgMCIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTI3OC42MTcxODggMTIxLjE0MDYyNWMtMzMuMTc1NzgyIDAtNjAuMDY2NDA3IDI2Ljg5NDUzMS02MC4wNjY0MDcgNjAuMDY2NDA2LS4wMDM5MDYgMzMuMTc1NzgxIDI2Ljg5MDYyNSA2MC4wNjY0MDcgNjAuMDY2NDA3IDYwLjA2NjQwNyAzMy4xNzE4NzQgMCA2MC4wNjI1LTI2Ljg5NDUzMiA2MC4wNjI1LTYwLjA2NjQwNy0uMDM1MTU3LTMzLjE1NjI1LTI2LjkwNjI1LTYwLjAyNzM0My02MC4wNjI1LTYwLjA2NjQwNnptNDUuOTE0MDYyIDU4LjMyODEyNWMwIDMuODY3MTg4LTMuMTMyODEyIDctNyA3aC0zMi4wNTg1OTR2MzEuOTcyNjU2YzAgMy44NjcxODgtMy4xMzY3MTggNy03IDctMy44NjcxODcgMC03LTMuMTMyODEyLTctN3YtMzEuOTcyNjU2aC0zMS43NzM0MzdjLTMuODY3MTg4IDAtNy0zLjEzMjgxMi03LTdzMy4xMzI4MTItNyA3LTdoMzEuNzczNDM3di0zMS44NTkzNzVjMC0zLjg2NzE4NyAzLjEzMjgxMy03IDctNyAzLjg2MzI4MiAwIDcgMy4xMzI4MTMgNyA3djMxLjg1OTM3NWgzMi4wNTg1OTRjMy44NjcxODggMCA3IDMuMTMyODEyIDcgN3ptMCAwIiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PC9nPjwvc3ZnPg==" class="IconBoyut"> <a><button class="HemenAlButon"><b class="TLicon">₺</b> Hemen Al</button></a> <button class="WhatsappButon"> WHATSAPP İLE SİPARİŞ VER</button> <img src="https://i.hizliresim.com/p5WbED.png" class="Iconkonum"></div> <a href="#" class="Favoriler"><label class="BuyukKalp">♡</label> Favorilerime ekle</a> <img src="https://www.cilekbutik.net/template/smart/default/assets/images/yerli-uretim.png?v=1578595504" class="YerliUretimBoyut">
+          <div class="HızlıGönderi"><img src="https://i.hizliresim.com/6VevqG.png" class="DivIcon"> <b class="DivYazı">Hızlı Gönderi</b></div>
+          <div class="GüvenliAlışveriş"><img src="https://i.hizliresim.com/9G1N2Y.png" class="DivIcon2"> <b class="DivYazı2">Güvenli Alışveriş</b></div>
+          <div class="Çizgi"></div>
+          <div class="DivDisplay"><button class="Twitter"><img src="https://i.hizliresim.com/9V5PHm.png"></button> <button class="Facebook"><img src="https://i.hizliresim.com/rbSj77.png"></button> <button class="Linkedin"><img src="https://i.hizliresim.com/7UdmbB.png"></button> <button class="Whatsapp"><img src="https://i.hizliresim.com/p5WbED.png" class="boyut"></button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="BenzerUrunlerText">
+    Benzer Ürünler
+  </div>
+  <div class="xcontainer">
+    <section tabindex="0" class="hooper">
+      <div class="hooper-list">
+        <ul class="hooper-track" style="transform: translate(0px, 0);">
+          <li class="slide_ferdi  hooper-slide is-active" style="width: 0px;">
+            <div class="UrunAlanı"><a><img title="Lakers Sweat" src="https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fa57c217b440-1353.jpg" alt="" class="UrunImage"></a> <a class="LINK">
+                <p title="Lakers Sweat" class="UrunIsim"> Lakers Sweat</p>
+              </a> <a class="LINK"><b title="Lakers Sweat" class="UrunFiyat"><span>55,00 TL </span></b></a> <button class="SepeteEkleButton"> Sepete Ekle </button></div>
+          </li>
+        </ul>
+        <div class="hooper-navigation"><button type="button" class="hooper-prev"><svg class="icon icon-arrowLeft" viewBox="0 0 24 24" width="24px" height="24px">
+              <title>Arrow Left</title>
+              <path d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"></path>
+            </svg></button><button type="button" class="hooper-next"><svg class="icon icon-arrowRight" viewBox="0 0 24 24" width="24px" height="24px">
+              <title>Arrow Right</title>
+              <path d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"></path>
+            </svg></button></div>
+        <div aria-live="polite" aria-atomic="true" class="hooper-liveregion hooper-sr-only">Item 1 of 1</div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`UyeGirisi renders properly 1`] = `
+<div class="UyeGirisi">
+  <div class="UyeGirisiDiv">
+    <h3 class="UyeGirisiBaslık">
+      Üye Girişi
+    </h3>
+    <form>
+      <p class="UyeGirisiEposta"> E-Posta Adresiniz</p> <input type="text" class="UyeGirisiInput">
+      <p class="UyeGirisiSifre"> Şifre</p> <input type="password" class="UyeGirisiInput">
+      <div class="SagText"><a href="https://www.cilekbutik.net/uye-giris?sayfa=sifre" class="UyeGirisiLink">Şifremi Hatırlat</a></div> <button type="submit" class="GirisYapButon"> Giriş Yap </button>
+    </form>
+  </div>
+</div>
+`;

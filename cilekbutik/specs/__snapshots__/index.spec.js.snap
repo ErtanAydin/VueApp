@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index gerçek Vuex Store kullanarak index render edildi 1`] = `
+<div>
+  <div class="CarouselBody">
+    <div class="carousel Carousel">
+      <transition-stub name="crossfade">
+        <div class="carousel-slide"><a href="#"><img src="https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fa57c217b440-1353.jpg"></a></div>
+      </transition-stub>
+      <transition-stub name="crossfade">
+        <div class="carousel-slide" style="display: none;"><a href="#"><img src="https://www.cilekbutik.net/cdn/2/100/100/images/urunler/5fa6a282db005-1368.jpg"></a></div>
+      </transition-stub> <button class="next carousel-button" style="font-size: x-large;"><i id="normal-text" class="fas fa-chevron-right"></i></button> <button class="prev carousel-button" style="font-size: x-large;"><i id="normal-text" class="fas fa-chevron-left"></i></button>
+    </div>
+  </div>
+  <div class="UrunlerBody">
+    <div class="CokSatanUrunler">
+      ÇOK SATAN ÜRÜNLER
+    </div>
+    <div class="Urunler">
+      <div class="UrunAlanı"><a><img title="Lakers Sweat" src="https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fa57c217b440-1353.jpg" alt="" class="UrunImage"></a> <a class="LINK">
+          <p title="Lakers Sweat" class="UrunIsim"> Lakers Sweat</p>
+        </a> <a class="LINK"><b title="Lakers Sweat" class="UrunFiyat"><span>55,00 TL </span></b></a> <button class="SepeteEkleButton"> Sepete Ekle </button></div>
+    </div>
+  </div>
+</div>
+`;

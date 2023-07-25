@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BenzerUrunler gerçek Vuex Store kullanarak BenzerUrunler render edildi 1`] = `
+<div class="xcontainer">
+  <section tabindex="0" class="hooper">
+    <div class="hooper-list">
+      <ul class="hooper-track" style="transform: translate(0px, 0);">
+        <li class="slide_ferdi  hooper-slide is-active" style="width: 0px;">
+          <div class="UrunAlanı"><a><img title="Lakers Sweat" src="https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fa57c217b440-1353.jpg" alt="" class="UrunImage"></a> <a class="LINK">
+              <p title="Lakers Sweat" class="UrunIsim"> Lakers Sweat</p>
+            </a> <a class="LINK"><b title="Lakers Sweat" class="UrunFiyat"><span>55,00 TL </span></b></a> <button class="SepeteEkleButton"> Sepete Ekle </button></div>
+        </li>
+      </ul>
+      <div class="hooper-navigation"><button type="button" class="hooper-prev"><svg class="icon icon-arrowLeft" viewBox="0 0 24 24" width="24px" height="24px">
+            <title>Arrow Left</title>
+            <path d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"></path>
+          </svg></button><button type="button" class="hooper-next"><svg class="icon icon-arrowRight" viewBox="0 0 24 24" width="24px" height="24px">
+            <title>Arrow Right</title>
+            <path d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"></path>
+          </svg></button></div>
+      <div aria-live="polite" aria-atomic="true" class="hooper-liveregion hooper-sr-only">Item 1 of 1</div>
+    </div>
+  </section>
+</div>
+`;

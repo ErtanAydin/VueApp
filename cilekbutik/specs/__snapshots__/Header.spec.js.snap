@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders properly 1`] = `
+<header>
+  <section class="duyuru">
+    <div class="duyuru-text"> 200 TL VE ÜZERİ SİPARİŞLERDE ÜCRETSİZ KARGO FIRSATI SİZLERİ BEKLİYOR </div>
+  </section>
+  <div class="header">
+    <section class="ana-bolum">
+      <div class="logo-bolumu"><a><img src="https://www.cilekbutik.net/images/logo/logo-16.png" alt=""></a></div>
+      <div class="orta-bolum">
+        <form action="https://www.cilekbutik.net/arama" class="searchbar-form"><select name="kategoriler" class="kategori-selectbox">
+            <option value="0">Tüm Kategoriler</option>
+            <option value="549">Üst Giyim</option>
+            <option value="550">Alt Giyim</option>
+            <option value="551">Dış Giyim</option>
+            <option value="552">Elbiseler</option>
+            <option value="553">Aksesuar</option>
+            <option value="554">Pijama Takımı</option>
+            <option value="555">İkili takım</option>
+            <option value="573">İndirimli Ürünler</option>
+          </select>
+          <div class="searchbar-tasarim"></div> <input type="text" name="searchbar-input-text" placeholder="Aramak istediğiniz ürünü yazın..." class="searchbar-inputbox">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <button type="submit" class="searchbar-input-button"><i class="fa fa-search search-icon" style="font-size: large;"></i></button>
+        </form>
+      </div>
+      <div class="yan-bolum">
+        <div class="yan-bolum-icerik">
+          <div class="tepe-giris-uyeol">
+            <div class="uyelik-linkler"><a class="tepe-link-text">Giriş Yap</a> <span> / </span> <a href="#" class="tepe-link-text">Üye Ol</a></div>
+
+            <i class="fa fa-user kullanici-icon"></i>
+          </div> <a class="tepe-sepet"><span class="tepe-sepet-bilgi"><span class="sepetim-text">Sepetim</span> <br> <span class="sepetim-ucret-text">50,00 TL</span></span> <span class="tepe-sepet-icon-bar"><i class="fa fa-shopping-basket tepe-sepet-icon"></i> <span class="tepe-urun-adedi">1</span></span></a>
+        </div>
+      </div>
+    </section>
+  </div>
+</header>
+`;

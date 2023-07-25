@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UrunListeleme gerçek Vuex Store kullanarak UrunListeleme render edildi 1`] = `
+<div>
+  <div class="UrunAlanı"><a><img title="Lakers Sweat" src="https://www.cilekbutik.net/cdn/1/300/500/images/urunler/5fa57c217b440-1353.jpg" alt="" class="UrunImage"></a> <a class="LINK">
+      <p title="Lakers Sweat" class="UrunIsim"> Lakers Sweat</p>
+    </a> <a class="LINK"><b title="Lakers Sweat" class="UrunFiyat"><span>55,00 TL </span></b></a> <button class="SepeteEkleButton"> Sepete Ekle </button></div>
+</div>
+`;
